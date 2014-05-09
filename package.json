@@ -21,7 +21,17 @@
   },
   "dependencies": {
     "express": "~4.1.1",
-    "logfmt": "~1.1.2"
+    "logfmt": "~1.1.2",
+    "ejs": "~1.0.0",
+    "passport": "~0.2.0",
+    "mongoose": "~3.8.8",
+    "connect-flash": "~0.1.1",
+    "passport-local": "~1.0.0",
+    "passport-twitter": "~1.0.2",
+    "passport-facebook": "~1.0.3",
+    "passport-google-oauth": "~0.1.5",
+    "bcrypt-nodejs": "0.0.3",
+    "morgan": "~1.0.1"
   },
   "engines": {
     "node": ">=0.10.28"
