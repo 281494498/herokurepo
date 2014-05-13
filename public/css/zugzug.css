@@ -154,7 +154,10 @@ body {
     border: 1px solid #fff;
 }
 
-
+label{
+    /*text-align: left;*/
+    float: left;
+}
 
 /*
  * Affix and center

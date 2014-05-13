@@ -1,27 +1,134 @@
-<!-- views/index.html -->
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Node Authentication</title>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
-    <style>
-        body 		{ padding-top:80px; }
-    </style>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ZugZug initial page">
+    <meta name="author" content="Hanwen Cheng">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>ZugZug</title>
+    <!-- core CSS
+================================================== -->
+    <link href="../public/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../public/css/zugzug.css" rel="stylesheet">
+
+    <!-- core JavaScript
+================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../public/js/bootstrap.min.js"></script>
+    <title></title>
 </head>
 <body>
-<div class="container">
+    <div class="site-wrapper" id ='home'>
+        <div class = 'site-wrapper-inner'>
 
-    <div class="jumbotron text-center">
-        <h1><span class="fa fa-lock"></span> Node Authentication</h1>
+            <div class =  'cover-wrapper' >
+                <div class="masthead inner">
+                    <h3 class="masthead-brand">ZugZug</h3>
+                    <ul class="nav masthead-nav">
+                        <li class=""><a href="#home">Home</a></li>
+                        <li><a href="#" data-toggle="modal" data-target="#myModal">SignIn</a></li>
+                        <li><a href="#copyright">Copyright</a></li>
+                    </ul>
+                </div>
 
-        <p>Login or Register with:</p>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                     aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                <h4 class="modal-title" id="myModalLabel">Tell me who you are</h4>
+                            </div>
+                            <div class="modal-body">
 
-        <a href="/login" class="btn btn-default"><span class="fa fa-user"></span> Local Login</a>
-        <a href="/signup" class="btn btn-default"><span class="fa fa-user"></span> Local Signup</a>
-        <a href="/logout" class="btn btn-default"><span class="fa fa-user"></span> Logout</a>
+                                <h3><span class="glyphicon glyphicon-log-in"></span> Login</h3>
+
+                                <!-- show any messages that come back with authentication -->
+                                {{#if message}}
+                                <div class="alert alert-danger">{{message}}</div>
+                                {{/if}}
+
+                                <!-- LOGIN FORM -->
+                                <form action="/login" method="post">
+                                    <div class="form-group ">
+                                        <label for="inputEmail" class="">Email</label>
+                                        <input type="text" class="form-control" name="email" id="inputEmail">
+                                    </div>
+                                    <div class="form-group ">
+                                        <label for="inputPassword">Password</label>
+                                        <input type="password" class="form-control" name="password" id="inputPassword">
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> Remember me
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn btn-success btn-lg b">Login</button>
+                                    <p>Need an account? <a href="/signup">Signup</a></p>
+                                </form>
+
+                            </div>
+                            <!--<div class="modal-footer">-->
+                                <!--<button type="button" class="btn btn-default" data-dismiss="modal">natürlich</button>-->
+                                <!--<button type="button" class="btn btn-primary">selbstverständlich</button>-->
+                            <!--</div>-->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inner cover">
+                    <h1 class="cover-heading ">Welcome to ZugZug</h1>
+                    <p class = 'lead'>A new world for making fun</p>
+                </div>
+
+                <div class = 'cover-wrapper-goNext inner'>
+                  <a href="#content">
+                  <span class="glyphicon glyphicon-chevron-down"></span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class = 'site-wrapper-inner'>
+            <div class = 'content-wrapper' id="content">
+                <h1 class="">
+                    I am always thinking how awesome I am
+                </h1>
+
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                        <h2>What</h2>
+                        <p>You can't see me,
+                            <small>you can't see me</small></p>
+                    </div>
+
+                    <div class="col-md-4 ">
+                        <h2>Will</h2>
+                        <p class="lead">you can't see me</p>
+                    </div>
+
+                    <div class="col-md-4 ">
+                        <h2>Happen?</h2>
+                        <p>you can't see me</p>
+                    </div>
+
+                  </div>
+                </div>
+
+                <div class = 'mastfoot inner' id = 'copyright' >
+                    <span class="glyphicon glyphicon-copyright-mark"></span>
+                    Made by <a href="https://github.com/281494498">Hanwen Cheng</a> 2014
+                </div>
+            </div>
+
+        </div>
+
     </div>
-
-</div>
 </body>
 </html>
