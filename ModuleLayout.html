@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <title>ZugZug</title>
+    <!-- core CSS
+================================================== -->
+    <link href="public/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/zugzug.cover.css" rel="stylesheet">
+
+    <title></title>
+</head>
+<body>
+<div class="site-wrapper" id ='home'>
+    <div class = 'site-wrapper-inner'>
+
+        <div class =  'cover-wrapper' >
+            <div class="masthead inner">
+                <div class="masthead-brand">ZugZug</div>
+                <div class="masthead-nav nav">nav
+                    <div class="masthead-nav-login">login</div>
+                </div>
+            </div>
+
+            <div class="content">content
+                <div class="content-search">search</div>
+                <div class="content-list">list</div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog"
+                <!-- LOGIN FORM -->
+                <form action="/login" method="post">
+                    <div class="form-group ">
+                        <label for="inputEmail" class="">Email</label>
+                        <input type="text" class="form-control" name="email" id="inputEmail">
+                    </div>
+                    <div class="form-group ">
+                        <label for="inputPassword">Password</label>
+                        <input type="password" class="form-control" name="password" id="inputPassword">
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox"> Remember me
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-success btn-lg b">Login</button>
+                    <p>Need an account? <a href="/signup">Signup</a></p>
+                </form>
+            </div>
+
+
+            <div class = 'cover-wrapper-goNext inner'>
+                    <span class="glyphicon glyphicon-chevron-down"></span></a>
+            </div>
+            <div class = 'mastfoot inner' id = 'copyright' >
+                <span class="glyphicon glyphicon-copyright-mark"></span>
+                Made by <a href="https://github.com/281494498">Hanwen Cheng</a> 2014
+            </div>
+        </div>
+    </div>
+
+    <div class = 'site-wrapper-inner'> next    </div>
+
+</div>
+</body>
+</html>
