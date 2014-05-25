@@ -2,601 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7a8da6a-00ae-4905-bd68-416353af6b52" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/10_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/10_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/10_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/10_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/11_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/11_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/11_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/11_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/12_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/12_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/12_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/12_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/1_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/1_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/1_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/1_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/2_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/2_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/2_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/2_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/3_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/3_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/3_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/3_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/4_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/4_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/4_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/4_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/5_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/5_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/5_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/5_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/6_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/6_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/6_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/6_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/7_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/7_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/7_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/7_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/8_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/8_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/8_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/8_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/9_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/9_b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/example/9_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/example/9_s.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabBol-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabBol-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabBol-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabBol-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabBol-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabBol-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabLig-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabLig-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabLig-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabLig-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabLig-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabLig-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabMed-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabMed-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabMed-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabMed-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabMed-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabMed-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabReg-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabReg-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabReg-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabReg-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabReg-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabReg-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabThi-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabThi-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabThi-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabThi-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabThi-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabThi-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/Inconsolata-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/Inconsolata-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/Inconsolata-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/Inconsolata-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/Inconsolata-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/Inconsolata-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/addressbook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/addressbook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/attachment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/attachment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/bar_chart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/bar_chart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/bg-footer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/bg-footer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/bg-page.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/bg-page.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/bg-page2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/bg-page2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/bg_page.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/bg_page.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/blank.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/blue.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/blue.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/blue.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/blue.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/blue_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/blue_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/configuration.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/configuration.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/anythingSlider/images/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/anythingSlider/images/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/digital_camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/digital_camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/email.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/email.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/export.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/export.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/fan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/fan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_loading.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_loading.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_loading.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_loading.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_nav_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_nav_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_nav_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_nav_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_nav_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_nav_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_nav_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_nav_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_shadow_e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_shadow_e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_shadow_e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_shadow_e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_shadow_n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_shadow_n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_shadow_n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_shadow_n.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_shadow_ne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_shadow_ne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_shadow_ne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_shadow_ne.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_shadow_nw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_shadow_nw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_shadow_nw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_shadow_nw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_shadow_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_shadow_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_shadow_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_shadow_s.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_shadow_se.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_shadow_se.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_shadow_se.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_shadow_se.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_shadow_sw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_shadow_sw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_shadow_sw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_shadow_sw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_shadow_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_shadow_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_shadow_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_shadow_w.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_title_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_title_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_title_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_title_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_title_main.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_title_main.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_title_main.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_title_main.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_title_over.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_title_over.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_title_over.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_title_over.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancy_title_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancy_title_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancy_title_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancy_title_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancybox-x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancybox-x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancybox-x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancybox-x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancybox-y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancybox-y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancybox-y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancybox-y.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/fancybox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/fancybox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/fancybox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/fancybox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/footer-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/footer-bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/images/grapes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/images/grapes.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/green.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/green.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/green.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/green.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/green_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/green_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/group.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/milk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/milk.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/newsletter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/newsletter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/open.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/orange.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/orange.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/orange.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/orange.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/orange_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/orange_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/pencils.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/pencils.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/pencils.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/pencils.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/images/pumpkin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/images/pumpkin.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/purple.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/purple.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/purple.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/purple.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/purple_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/purple_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/red.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/red.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/red.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/red.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/red_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/red_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/images/scallop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/images/scallop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/slide1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/slide1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/slide1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/slide1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/slide1_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/slide1_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/slide2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/slide2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/slide2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/slide2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/slide2_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/slide2_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/slide3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/slide3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/slide3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/slide3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/slide3_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/slide3_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/slide4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/slide4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/slide4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/slide4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/slide4_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/slide4_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/slide5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/slide5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/slide5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/slide5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/slide5_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/slide5_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/slide6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/slide6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/slide6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/slide6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/slide6_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/slide6_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/smiley.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/smiley.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/stop_sign.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/stop_sign.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/support.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/support.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/undo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/upload.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/user.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/vacancy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/vacancy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/images/various.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/images/various.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/weight.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/weight.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/large/yellow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/yellow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/large/yellow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/yellow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/small/yellow_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/small/yellow_h.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/images/zoom_out.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/images/zoom_out.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabBol-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabBol-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabLig-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabLig-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabMed-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabMed-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabReg-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabReg-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/ColabThi-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/ColabThi-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/Inconsolata-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/Inconsolata-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_js/additional-methods.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_js/additional-methods.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter06/animate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter06/animate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/anythingSlider/anythingslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/anythingSlider/anythingslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/testbed/array_methods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/testbed/array_methods.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter02/arrays.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter02/arrays.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter04/bibliography.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter04/bibliography.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter06/callback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter06/callback.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter06/complete_animate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter06/complete_animate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter02/complete_arrays.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter02/complete_arrays.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/complete_complex_tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/complete_complex_tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter03/complete_conditional.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter03/complete_conditional.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter15/complete_console.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter15/complete_console.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter15/complete_debugger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter15/complete_debugger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter03/complete_do-while.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter03/complete_do-while.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter05/complete_events_intro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter05/complete_events_intro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter01/complete_fadeIn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter01/complete_fadeIn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/complete_fancybox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/complete_fancybox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter05/complete_faq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter05/complete_faq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter12/complete_flickr.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter12/complete_flickr.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter12/complete_flickr_limit_photos.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter12/complete_flickr_limit_photos.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter09/complete_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter09/complete_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/complete_gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/complete_gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter01/complete_hello.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter01/complete_hello.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter01/complete_hello2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter01/complete_hello2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/complete_in-page-links.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/complete_in-page-links.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter11/complete_load.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter11/complete_load.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter11/complete_login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter11/complete_login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter12/complete_map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter12/complete_map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/complete_menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/complete_menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter03/complete_print_date.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter03/complete_print_date.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter02/complete_prompt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter02/complete_prompt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter04/complete_pull-quote.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter04/complete_pull-quote.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter03/complete_quiz.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter03/complete_quiz.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/complete_rollover.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/complete_rollover.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter06/complete_signup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter06/complete_signup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter06/complete_signup2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter06/complete_signup2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/complete_slider.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/complete_slider.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/complete_slider2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/complete_slider2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/complete_tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/complete_tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/complete_tooltip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/complete_tooltip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter02/complete_use_variable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter02/complete_use_variable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter09/complete_validation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter09/complete_validation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/complete_youtube.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/complete_youtube.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter03/conditional.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter03/conditional.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter15/console.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter15/console.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/testbed/content_functions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/testbed/content_functions.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter15/debugger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter15/debugger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/delegate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/delegate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/_notes/dwsync.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_images/_notes/dwsync.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_js/_notes/dwsync.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter12/_notes/dwsync.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/_notes/dwsync.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_images/_notes/dwsync.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_js/_notes/dwsync.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter12/_notes/dwsync.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter06/easing_example1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter06/easing_example1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter06/easing_example2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter06/easing_example2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/testbed/effects.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/testbed/effects.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/testbed/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/testbed/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter05/events_intro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter05/events_intro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter09/example_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter09/example_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter14/example_regex.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter14/example_regex.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/external.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/external.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter01/fadeIn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter01/fadeIn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox-external.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox-external.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox-inline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox-inline.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox_youtube.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox_youtube.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter05/faq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter05/faq.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/find.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/find.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/find3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/find3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter12/flickr.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter12/flickr.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter12/flickr_json.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter12/flickr_json.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter09/form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter09/form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter01/hello.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter01/hello.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter01/hello2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter01/hello2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/in-page-links.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/in-page-links.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_js/jquery-1.6.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_js/jquery-1.6.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_js/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_js/jquery-1.7.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_js/jquery-ui-1.8.13.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_js/jquery-ui-1.8.13.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/anythingSlider/jquery.anythingslider.fx.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/anythingSlider/jquery.anythingslider.fx.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/anythingSlider/jquery.anythingslider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/anythingSlider/jquery.anythingslider.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/anythingSlider/jquery.anythingslider.video.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/anythingSlider/jquery.anythingslider.video.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_js/jquery.color.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_js/jquery.color.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/jquery.fancybox-1.3.4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/jquery.fancybox-1.3.4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/jquery.fancybox-1.3.4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/jquery.fancybox-1.3.4.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/jquery.fancybox-1.3.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/jquery.fancybox-1.3.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/jquery.fancybox-1.3.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/jquery.fancybox-1.3.4.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/fancybox/jquery.fancybox-1.3.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/fancybox/jquery.fancybox-1.3.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/fancybox/jquery.fancybox-1.3.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/fancybox/jquery.fancybox-1.3.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_js/jquery.gomap-1.3.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_js/jquery.gomap-1.3.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_js/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_js/jquery.validate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter11/lastweek.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter11/lastweek.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter11/load.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter11/load.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter11/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter11/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter11/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter11/login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter12/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter12/map.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter08/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter08/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter06/multiple-callbacks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter06/multiple-callbacks.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_js/nav1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_js/nav1.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/nextall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/nextall.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/nextall_hover.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/nextall_hover.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/page1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/page1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/page2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/page2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/page3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/page3.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/parent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/parent.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter14/printTime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter14/printTime.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter03/print_date.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter03/print_date.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter09/process.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter09/process.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter02/prompt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter02/prompt.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter04/pull-quote.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter04/pull-quote.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter03/quiz.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter03/quiz.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/testbed/regex_tester.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/testbed/regex_tester.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/rollover.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/rollover.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scrollbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scrollbar.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/testbed/selectors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/testbed/selectors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/siblings.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/siblings.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter06/signup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter06/signup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/site.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_js/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_js/site.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/slider.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/slider.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/_css/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/_css/stylesheet.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/anythingSlider/swfobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/anythingSlider/swfobject.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter14/time.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter14/time.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter11/today.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter11/today.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter10/tooltip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter10/tooltip.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter02/use_variable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter02/use_variable.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter09/validation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter09/validation.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter13/wrap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter13/wrap.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter11/yesterday.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter11/yesterday.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/MM_JAVASCRIPT2E/chapter07/youtube.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/missingManualSamples/chapter07/youtube.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zugzug.acct.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/zugzug.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zugzug.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zugzug.util.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/zugzug.cover.css" afterPath="$PROJECT_DIR$/css/zugzug.shell.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.uriAnchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jquery.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/layout-test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/zugzug.util_b.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ModuleLayout.html" afterPath="$PROJECT_DIR$/ModuleLayout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/missingManualSamples/chapter06/complete_signup2.html" afterPath="$PROJECT_DIR$/missingManualSamples/chapter06/complete_signup2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/zugzug.acct.js" afterPath="$PROJECT_DIR$/js/zugzug.acct.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/zugzug.iml" afterPath="$PROJECT_DIR$/.idea/zugzug.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/zugzug.shell.css" afterPath="$PROJECT_DIR$/css/zugzug.shell.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/zugzug.shell.js" afterPath="$PROJECT_DIR$/js/zugzug.shell.js" />
     </list>
     <ignored path="zugzug.iws" />
@@ -623,18 +40,31 @@
       <file leaf-file-name="ModuleLayout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ModuleLayout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.666667" vertical-offset="54" max-vertical-offset="1008">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="-10.666667" vertical-offset="162" max-vertical-offset="972">
+              <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+              <folding>
+                <marker date="1401040395966" expanded="true" signature="628:934" placeholder="..." />
+                <marker date="1401040395966" expanded="true" signature="726:915" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zugzug.shell.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/zugzug.shell.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="8.649123" vertical-offset="1969" max-vertical-offset="4590">
+              <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/login.html">
+      <file leaf-file-name="complete_signup.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/missingManualSamples/chapter06/complete_signup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.666667" vertical-offset="216" max-vertical-offset="936">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="1818">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -644,52 +74,8 @@
         <entry file="file://$PROJECT_DIR$/js/zugzug.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zugzug.shell.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/zugzug.shell.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="4482">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dwsync.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/missingManualSamples/_js/_notes/dwsync.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="613">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zugzug.acct.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/zugzug.acct.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zugzug.util.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/zugzug.util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="485" max-vertical-offset="1404">
-              <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -697,8 +83,28 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="756">
-              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+            <state vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="792">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="complete_signup2.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/missingManualSamples/chapter06/complete_signup2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.037037" vertical-offset="926" max-vertical-offset="1944">
+              <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zugzug.acct.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/zugzug.acct.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.31" vertical-offset="1740" max-vertical-offset="2448">
+              <caret line="107" column="37" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -707,8 +113,28 @@
       <file leaf-file-name="zugzug.shell.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/zugzug.shell.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1224">
-              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1614" max-vertical-offset="3510">
+              <caret line="173" column="45" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zugzug.util.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/zugzug.util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1224">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zugzug.util_b.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/zugzug.util_b.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1128" max-vertical-offset="1728">
+              <caret line="83" column="3" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -755,12 +181,15 @@
         <option value="$PROJECT_DIR$/scrollbar.css" />
         <option value="$PROJECT_DIR$/css/zugzug.cover.css" />
         <option value="$PROJECT_DIR$/js/zugzug.util.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/js/zugzug.shell.js" />
         <option value="$PROJECT_DIR$/js/zugzug.js" />
-        <option value="$PROJECT_DIR$/js/zugzug.acct.js" />
+        <option value="$PROJECT_DIR$/missingManualSamples/chapter06/complete_signup2.html" />
+        <option value="$PROJECT_DIR$/js/layout-test.js" />
         <option value="$PROJECT_DIR$/ModuleLayout.html" />
         <option value="$PROJECT_DIR$/css/zugzug.shell.css" />
+        <option value="$PROJECT_DIR$/js/zugzug.util_b.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/zugzug.shell.js" />
+        <option value="$PROJECT_DIR$/js/zugzug.acct.js" />
       </list>
     </option>
   </component>
@@ -790,6 +219,9 @@
             <id>DOM issuesJavaScript</id>
           </State>
           <State>
+            <id>Dart</id>
+          </State>
+          <State>
             <id>GeneralJavaScript</id>
           </State>
           <State>
@@ -800,6 +232,21 @@
           </State>
           <State>
             <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>JsTestDriverJavaScript</id>
+          </State>
+          <State>
+            <id>LESS</id>
+          </State>
+          <State>
+            <id>Node.jsJavaScript</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>SASS/SCSS</id>
           </State>
           <State>
             <id>XML</id>
@@ -896,6 +343,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="missingManualSamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chapter06" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zugzug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zugzug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="missingManualSamples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zugzug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zugzug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -951,20 +434,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="options.lastSelected" value="editor.preferences.completion" />
+    <property name="options.lastSelected" value="JavaScript.Libraries" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/nodeJscode/9" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/jquery-1.11.1.js" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="SearchEverywhereHistoryKey" value="javascript li&#9;ACTION&#9;Editor.JSLibrariesMenu" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -1035,10 +519,10 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.236822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.236822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="157" y="193" width="1109" height="571" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="157" y="221" width="1109" height="571" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1076,48 +560,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/ejsFiles/login.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="936">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="810">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="198">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="810">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="626">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.185185" vertical-offset="265" max-vertical-offset="864">
@@ -1376,46 +818,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/zugzug.util.js">
+    <entry file="file://$PROJECT_DIR$/missingManualSamples/_images/close.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missingManualSamples/_js/_notes/dwsync.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="485" max-vertical-offset="1404">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.08809135" vertical-offset="0" max-vertical-offset="613">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/layout-test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="756">
-          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.057507988" vertical-offset="0" max-vertical-offset="626">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7235495" vertical-offset="188" max-vertical-offset="936">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.uriAnchor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.7891374" vertical-offset="0" max-vertical-offset="9216">
+          <caret line="109" column="41" selection-start-line="109" selection-start-column="41" selection-end-line="109" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ModuleLayout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.666667" vertical-offset="54" max-vertical-offset="1008">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/zugzug.acct.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.666667" vertical-offset="162" max-vertical-offset="972">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
           <folding>
-            <element signature="e#0#41#0" expanded="false" />
+            <marker date="1401040395966" expanded="true" signature="628:934" placeholder="..." />
+            <marker date="1401040395966" expanded="true" signature="726:915" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.html">
+    <entry file="file://$PROJECT_DIR$/missingManualSamples/chapter06/complete_signup2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.666667" vertical-offset="216" max-vertical-offset="936">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        <state vertical-scroll-proportion="-7.037037" vertical-offset="926" max-vertical-offset="1944">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="792">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/missingManualSamples/chapter06/complete_signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0" vertical-offset="0" max-vertical-offset="1818">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1423,31 +893,47 @@
     <entry file="file://$PROJECT_DIR$/js/zugzug.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/zugzug.shell.js">
+    <entry file="file://$PROJECT_DIR$/js/zugzug.util_b.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="1224">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1128" max-vertical-offset="1728">
+          <caret line="83" column="3" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/zugzug.shell.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="4482">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        <state vertical-scroll-proportion="8.649123" vertical-offset="1969" max-vertical-offset="4590">
+          <caret line="82" column="23" selection-start-line="82" selection-start-column="23" selection-end-line="82" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/missingManualSamples/_js/_notes/dwsync.xml">
+    <entry file="file://$PROJECT_DIR$/js/zugzug.shell.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="613">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1614" max-vertical-offset="3510">
+          <caret line="173" column="45" selection-start-line="173" selection-start-column="31" selection-end-line="173" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/zugzug.util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1224">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/zugzug.acct.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31" vertical-offset="1740" max-vertical-offset="2448">
+          <caret line="107" column="37" selection-start-line="107" selection-start-column="28" selection-end-line="107" selection-end-column="37" />
           <folding />
         </state>
       </provider>

@@ -22,7 +22,6 @@ body {
     width: 100%;
     min-height: 500px;
     height: 100%;
-
     overflow: hidden;
 }
 
@@ -71,17 +70,17 @@ body {
  * Header
  */
 .masthead{
-
+    height:100px;
 }
 
     .masthead-brand {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         color: #DDD;
     }
 
     .acct{
-
+        color: #FFFFFF;
     }
         .acct > li {
             display: inline-block;
@@ -118,13 +117,24 @@ body {
                 border-bottom-color: #fff;
             }
 
+        .acct-login{
+            position: absolute;
+            /*display : none;*/
+            right:0px;
+            width:300px;
+            top: 50px;
+            height:200px;
+            background-color: #aaaaaa;
+            z-index: 10;
+        }
+
 /*
  * content
  */
 
 .content{
     position: absolute;
-    top:120px;
+    top:100px;
     left:0;
     right:0;
     bottom:50px;
@@ -169,10 +179,6 @@ body {
 .inner {
     padding: 30px;
 }
-
-.cover {
-    padding: 0 20px; /*set only the horizontal padding*/
-}
 .cover .btn-lg {
     padding: 10px 20px;
     font-weight: bold;
@@ -189,7 +195,7 @@ body {
     border: 1px solid #fff;
 }
 
-label{
+.acct label{
     /*text-align: left;*/
     float: left;
 }
@@ -204,7 +210,7 @@ label{
         position: fixed;
         top: 0;
         width: 100%;
-        z-index: 100;
+        z-index: 100;   /*TODO*/
     }
 
     .masthead-brand {
