@@ -119,7 +119,7 @@ body {
 
         .acct-login{
             position: absolute;
-            /*display : none;*/
+            display : none;
             right:0px;
             width:300px;
             top: 50px;
@@ -128,38 +128,7 @@ body {
             z-index: 10;
         }
 
-/*
- * content
- */
 
-.content{
-    position: absolute;
-    top:100px;
-    left:0;
-    right:0;
-    bottom:50px;
-}
-
-    .content-search{
-        /*position : absolute;*/
-        top: 20px ;
-        /*left:0;*/
-        /*width:500px;*/
-    }
-    .content-post{
-        /*position: absolute;*/
-        top:20px;
-        /*right:400px;*/
-        /*left:520px;*/
-    }
-    .content-list{
-        top:30px;
-        bottom:10px;
-    }
-    .content-map{
-        top:20px;
-        height:100px;
-    }
 /*
  * Footer
  */
@@ -227,12 +196,7 @@ body {
     }
 }
 
-@media (min-width: 992px) {
-    .content-list{
-        position: absolute;
-        top:80px;
-    }
-}
+
 /*Handle the widths*/
 /*.masthead*/
 /*.mastfoot,*/

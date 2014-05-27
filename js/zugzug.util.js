@@ -56,8 +56,9 @@ zugzug.util = (function () {
         }
         else {
           error = makeError( 'Bad Input',
-            'Setting config key |' + key_name + '| is not supported'
+            'Setting config key |' + key_name + '| is not supported, support variable is'
           );
+          console.dir(support_option);
           throw error;
         }
       }

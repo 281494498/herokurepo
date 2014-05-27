@@ -12,14 +12,6 @@ zugzug.shell =(function(){
     main_html += "            <\/div>";
     main_html += "";
     main_html += "            <div class=\"content b container\">content";
-    main_html += "                <div class=\"row \">";
-    main_html += "                    <div class=\"content-search b col-md-4\">search<\/div>";
-    main_html += "                    <div class=\"content-post b col-md-4\">post<\/div>";
-    main_html += "                    <div class=\"content-map b col-md-4\">map<\/div>";
-    main_html += "                <\/div>";
-    main_html += "                <div class=\"row\">";
-    main_html += "                    <div class=\"content-list b col-md-8\">list<\/div>";
-    main_html += "                <\/div>";
     main_html += "            <\/div>";
     main_html += "";
     main_html += "            <div class = 'mastfoot inner' id = 'copyright' >";
@@ -32,7 +24,8 @@ zugzug.shell =(function(){
     var configMap = {
             main_html: main_html,
             anchor_schema_map : {
-                login : { open  : true,  closed : true}
+                info : { open : true,  close : true},
+                post : { open : true,  close : true}
             }
        },
        stateMap = {
@@ -41,7 +34,7 @@ zugzug.shell =(function(){
        jqueryMap = {     };
 
     var setJqueryMap, initModule,
-        copyAnchorMap, changeAnchorPart, onHashChange, setLoginAnchor;
+        copyAnchorMap, changeAnchorPart, onHashChange, setInfoAnchor, setPostAnchor;
 
 //    =====================UTILITY======
     copyAnchorMap = function(){
@@ -54,7 +47,8 @@ zugzug.shell =(function(){
     setJqueryMap = function($container){
         jqueryMap = {
             $container  : $container,
-            $acct       : $container.find('.acct')
+            $acct       : $container.find('.acct'),
+            $content    : $container.find('.content')
         };
 
     };
@@ -98,61 +92,74 @@ zugzug.shell =(function(){
         return bool_return; //TODO
     };
 
-//    toggleLogin = function(do_extend, callback){
-//        var
-//           ,
-//            is_open = px_login_ht === configMap.
-//            is_closed = px_login_ht ===configMap,
-//            is sliding =
-//    };
-
     onHashChange = function(){
         var
             anchor_map_previous = copyAnchorMap(),
-            anchor_map_proposed,
-            _s_login_previous, _s_login_proposed,
-            s_login_proposed,
-            is_login_ok = true;
+            anchor_map_now, is_animated = true,
+
+            _s_info_previous, _s_info_proposed, s_info_proposed,
+
+            _s_post_previous, _s_post_proposed, s_post_proposed;
 
         try{
-            anchor_map_proposed = $.uriAnchor.makeAnchorMap();
+            anchor_map_now = $.uriAnchor.makeAnchorMap();
         }
         catch(error){
             $.uriAnchor.setAnchor(anchor_map_previous, null, true);
             return false;
         }
 
-        stateMap.anchor_map = anchor_map_proposed;
+        stateMap.anchor_map = anchor_map_now;
 
         //convenience vars
-        _s_login_previous = anchor_map_previous._s_login;
-        _s_login_proposed = anchor_map_proposed._s_login;
+        _s_info_previous = anchor_map_previous._s_info;
+        _s_info_proposed = anchor_map_now._s_info;
+        _s_post_previous = anchor_map_previous._s_post;
+        _s_post_proposed = anchor_map_now._s_post;
 
         //if anchor changed, magic happened here!
-        if(! anchor_map_previous || _s_login_previous !== _s_login_proposed){
-            s_login_proposed = anchor_map_proposed.login;
-            switch (s_login_proposed){
+        if(! anchor_map_previous || _s_info_previous !== _s_info_proposed){
+            s_info_proposed = anchor_map_now.info;
+            switch (s_info_proposed){
                 case 'open':
-                    is_login_ok = zugzug.acct.setSliderPosition('open');
+                    is_animated = zugzug.acct.setSliderPosition('open');
                     break;
                 case 'close':
-                    is_login_ok = zugzug.acct.setSliderPosition('close');
+                    is_animated = zugzug.acct.setSliderPosition('close');
                     break;
                 default :   //TODO
-                    is_login_ok = true;
-                    delete anchor_map_proposed.login;
-                    $.uriAnchor.setAnchor(anchor_map_proposed, null, true);
+                    is_animated = true;
+                    delete anchor_map_now.info;
+                    $.uriAnchor.setAnchor(anchor_map_now, null, true);
             }
         }
 
-        if(!is_login_ok){
+        if(! anchor_map_previous || _s_post_previous !== _s_post_proposed){
+            s_post_proposed = anchor_map_now.post;
+            switch (s_post_proposed){
+                case 'open':
+                    is_animated = zugzug.content.setPostPosition('open');
+                    break;
+                case 'close':
+                    is_animated = zugzug.content.setPostPosition('close');
+                    break;
+                default :   //TODO
+                    is_animated = true;
+                    delete anchor_map_now.post;
+                    $.uriAnchor.setAnchor(anchor_map_now, null, true);
+            }
+        }
+
+        if(!is_animated){
             if(anchor_map_previous){
                 $.uriAnchor.setAnchor(anchor_map_previous, null, true);
                 stateMap.anchor_map = anchor_map_previous;
             }
+            // if previous not exist then turn to default page(index)
             else{
-                delete anchor_map_proposed.login;
-                $.uriAnchor.setAnchor(anchor_map_proposed, null, true);
+                delete anchor_map_now.info;
+                delete anchor_map_now.post;
+                $.uriAnchor.setAnchor(anchor_map_now, null, true);
             }
         }
         return false;
@@ -160,8 +167,14 @@ zugzug.shell =(function(){
 
 //    ===============CALLBACK===========
 
-    setLoginAnchor = function(position_type){
-      return changeAnchorPart({login : position_type});
+    setInfoAnchor = function(position_type){
+      return changeAnchorPart({
+          info : position_type
+      });
+    };
+
+    setPostAnchor = function(position_type){
+        return changeAnchorPart({post: position_type});
     };
 
 //    ===================================
@@ -171,10 +184,15 @@ zugzug.shell =(function(){
         setJqueryMap($container);
 
         zugzug.acct.configModule({
-            set_login_anchor : setLoginAnchor
-
+            set_info_anchor : setInfoAnchor
         });
         zugzug.acct.initModule(jqueryMap.$acct);
+
+        zugzug.content.configModule({
+            set_post_anchor : setPostAnchor
+        });
+
+        zugzug.content.initModule(jqueryMap.$content);
 
         $.uriAnchor.configModule({
             schema_map : configMap.anchor_schema_map
