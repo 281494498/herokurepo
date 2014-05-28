@@ -44,16 +44,19 @@ zugzug.content = (function(){
             $container: null
         };
 
-    var setJqueryMap, configModule, initModule, setPostPosition, onClickToggle;
+    var setJqueryMap, configModule, initModule, setPostPosition, onClickToggle,
+        onTapStart, onTapEnd, onSearchComplete;
 
 //    ======================DOM method===============
     setJqueryMap = function($container){
         jqueryMap = {
             $container  : $container,
-            $list      : $container.find('.content-list'),
-            $search      : $container.find('.content-search'),
+            $list       : $container.find('.content-list'),
+            $search     : $container.find('.content-search'),
             $post       : $container.find('.content-post'),
-            $detail     : $container.find('.content-detail')
+            $detail     : $container.find('.content-detail'),
+            $start      : $container.find('.content-search-start'),
+            $end        : $container.find('.content-search-end')
         };
     };
 
@@ -119,6 +122,42 @@ zugzug.content = (function(){
         return false;
     };
 
+    onTapStart = function(){
+        var city_name;
+            city_name = prompt('please enter the start city');
+            zugzug.model.cities.search(city_name, null);  //TODO
+            jqueryMap.$list.text('waiting');
+    };
+
+    onTapEnd = function(){
+        var city_name,
+//            city = zugzug.model.cities.get_start();
+//        if(city.get_is_anon()){
+            city_name = prompt('please enter the end city');
+            zugzug.model.cities.search(null, city_name);  //TODO
+            jqueryMap.$list.text('waiting');
+//        }
+//        else{
+//            zugzug.model.cities.logout();
+//        }
+    };
+
+    onSearchComplete = function(event, result_map){
+        console.dir(result_map);//exactly the same one
+        var path_fragment = undefined;
+        result_map.forEach(function(path, index, array){
+//            if(index >0){
+                path_fragment = $('<p/>')
+                    .addClass()
+                    .text(path.start)
+                    .appendTo(jqueryMap.$list);
+            console.log(path_fragment.text());
+//            }
+        });
+
+        jqueryMap.$list.append(path_fragment);
+    };
+
     configModule = function(input_map){
         zugzug.util.setConfigMap({
             input_option   : input_map,
@@ -134,6 +173,11 @@ zugzug.content = (function(){
 
         jqueryMap.$post.click(onClickToggle);
         stateMap.position_type = 'close';
+
+        jqueryMap.$start.text('enter the start').click(onTapStart);
+        jqueryMap.$end.text('enter the end').click(onTapEnd);
+
+        $.gevent.subscribe(jqueryMap.$list, 'zugzug-search', onSearchComplete);
         return true;
     };
 
