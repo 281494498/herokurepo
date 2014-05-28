@@ -9,7 +9,11 @@
 zugzug.content = (function(){
     var content_html="";
     content_html += "                <div class=\"row \">";
-    content_html += "                    <div class=\"content-search b col-md-4\">search<\/div>";
+    content_html += "                    <div class=\"content-search b col-md-4\">";
+    content_html += "                       <div class=\"row\"><\/div>";
+    content_html += "                       <div class=\"content-search-start b col-md-6\">start<\/div>";
+    content_html += "                       <div class=\"content-search-end b col-md-6\">end<\/div>";
+    content_html += "                     <\/div>";
     content_html += "                    <div class=\"content-post b col-md-4\">post<\/div>";
     content_html += "                    <div class=\"content-detail b col-md-4\">map<\/div>";
     content_html += "                <\/div>";
@@ -32,7 +36,8 @@ zugzug.content = (function(){
         stateMap = {
             position_type : 'close',    //TODO double seted
             open_height_px : 200,
-            open_width_px : 300
+            open_width_px : 300,
+            px_per_em : 0
         },
 
         jqueryMap = {
