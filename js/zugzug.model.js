@@ -4,7 +4,7 @@
 
 /*
  *
- * mgame.model.js
+ * zugzug.model.js
  * Model module for SPA
  *
  */
@@ -31,6 +31,7 @@ zugzug.model = (function(){
             city            : null,
             city_start		: null,
             city_end        : null,
+            search_map      : null,
 
             path_db     : TAFFY(),
             path_cid_map	: {}
@@ -194,19 +195,33 @@ zugzug.model = (function(){
         search = function(start_city, end_city){
             var sio = isFakeData? zugzug.fake.mockSio : zugzug.data.getSio(); //TODO
             var _start, _end;
-            stateMap.start = stateMap.start || start_city;
-            stateMap.end = stateMap.end || end_city;
+
             _start = stateMap.start;
-            _end = stateMap.end;
-            console.log('start from : '+ _start + " to: " + _end );
-            if(_start && _end){
+            _end = stateMap.end;    // TODO add the judgement on invalid search city
+
+            if(start_city ){
+                stateMap.start = start_city;
+            }
+
+            if(end_city ){
+                stateMap.end = end_city;
+            }
+
+            console.log('start from : '+ stateMap.start + " to: " + stateMap.end );
+            if(stateMap.start && stateMap.end && (stateMap.start !== _start || stateMap.end!== _end)){
                 sio.on('searchpathCallback', completeSearchPath);
 
-                sio.emit('searchpath', {
-                    startCity   : _start,
-                    endCity     : _end
+                sio.emit('searchpath', {        //TODO should be set in server
+                    startCity   : stateMap.start,
+                    endCity     : stateMap.end
                 });
+
+                stateMap.search_map = { //todo maybe removed
+                    start : stateMap.start,
+                    end   : stateMap.end
+                };
             }
+            return true ; //TODO
         };
 
         completeSearchPath = function(){
@@ -214,7 +229,7 @@ zugzug.model = (function(){
 
             var path_list = zugzug.fake.getPathList(); // which is a array
 
-            path_list.forEach(function(path, index, list){
+            path_list.forEach(function(path){
                 makePath({
                     id     : path._id,
                     start   : path.start,
@@ -225,7 +240,7 @@ zugzug.model = (function(){
                 });
             });
 
-            stateMap.path_db().each(function(path, index){
+            stateMap.path_db().each(function(path){
                 console.dir(path);
             });
             //here must be array, and first one is reserved by event, start from 1.
@@ -273,206 +288,58 @@ zugzug.model = (function(){
 // 	The Chat object API
 // ----------------------
 
-//    path = (function(){
-//        var _publish_listchange, _update_list,
-//        //this method to refresh the PEOPLE object when a new people list receiveed
-//            _update_list = function(arg_list){
-//                var  person_map, make_person_map, person,
-//                    path_list = arg_list[0],
-//                clearPathDB();
-//
-//
-//
-//                PERSON:
-//                    for (var i=0; i < path_list.length; i++) {
-//                        path_map = path_list[i];
-//
-//                        if (! person_map.name) {
-//                            continue PERSON;
-//                        }
-//
-//                        //if user defined, update css_map and skip reminder
-//                        if (stateMap.user && stateMap.user.id === person_map._id) {
-//                            stateMap.user.css_map = person_map.css_map;
-//                            continue PERSON;
-//                        }
-//
-//                        make_person_map = {
-//                            cid		: person_map._id,
-//                            css_map	: person_map.css_map,
-//                            id		: person_map._id,
-//                            name	: person_map.name
-//                        };
-//
-//                        person = makePerson(make_person_map);
-//
-//                        //recursively check if chatee is online
-//                        if (chatee && chatee.id === make_person_map.id) {
-//                            is_chatee_online = true;
-//                            chatee = person;
-//                        };
-//                    }
-//
-//                stateMap.people_db.sort('name');
-//                //if chatee offline we unset the chatee and trigger 'mgame-setchatee'
-//                if ( chatee && !is_chatee_online) {set_chatee('');};
-//            };
-//    }());
-
-//    ======================================================
-    chat = (function(){
-        var
-            _publish_listchange, _update_list, _leave_chat, join_chat,
-            _publish_updatechat, get_chatee, send_msg, set_chatee,
-            chatee = null, update_avatar;
-
+    path = (function(){
+        var _publish_listchange, _update_list, addPath;
         //this method to refresh the PEOPLE object when a new people list receiveed
+
+//      decide whether to add the path to the list
+        addPath = function(arg_list){
+            var path_list = arg_list[0];
+
+            if(stateMap.search_map === null){
+                _update_list(path_list);
+            }
+            else if(stateMap.search_map.start == path_list.start &&
+                    stateMap.search_map.end   == path_list.end){
+                _update_list(path_list);
+            }
+        };
+
         _update_list = function(arg_list){
-            var  person_map, make_person_map, person,
-                people_list = arg_list[0],
-                is_chatee_online = false;
-            clearPeopleDb();
+            var  person_map, make_path_map, person;
 
-            PERSON:
-                for (var i=0; i < people_list.length; i++) {
-                    person_map = people_list[i];
+            clearPathDB();
 
-                    if (! person_map.name) {
-                        continue PERSON;
-                    }
-
-                    //if user defined, update css_map and skip reminder
-                    if (stateMap.user && stateMap.user.id === person_map._id) {
-                        stateMap.user.css_map = person_map.css_map;
-                        continue PERSON;
-                    }
-
-                    make_person_map = {
-                        cid		: person_map._id,
-                        css_map	: person_map.css_map,
-                        id		: person_map._id,
-                        name	: person_map.name
-                    };
-
-                    person = makePerson(make_person_map);
-
-                    //recursively check if chatee is online
-                    if (chatee && chatee.id === make_person_map.id) {
-                        is_chatee_online = true;
-                        chatee = person;
-                    };
+            arg_list.forEach(function(path, index, list) {
+                if (!path.start || !path.end) {
+                    return;
                 }
 
-            stateMap.people_db.sort('name');
-            //if chatee offline we unset the chatee and trigger 'mgame-setchatee'
-            if ( chatee && !is_chatee_online) {set_chatee('');};
-        };
-        //end update_list
+                make_path_map = {
+                    id: path._id,
+                    start: path.start,
+                    end: path.end,
+                    date: path.date,
+                    member: path.member,
+                    cid: path._id
+                };
+            });
 
-        //this method to publish a global jquery event with people list as data
+        };
+
         _publish_listchange = function (arg_list){
             _update_list(arg_list);
-            $.gevent.publish('mgame-listchange', [arg_list]);
+            $.gevent.publish('zugzug-listchange', [arg_list]);
         };
 
-        _publish_updatechat = function(arg_list){
-            var msg_map = arg_list[0];
 
-            //set chatee when receive the msg.
-            if (!chatee) { set_chatee(msg_map.sender_id);}
-            else if (msg_map.sender_id !== stateMap.user.id
-                && msg_map.sender_id !==chatee.id) {
-                set_chatee(msg_map.sender_id);
-            }
-
-            $.gevent.publish('mgame-updatechat', [msg_map]);
-        };
-        //end chat (internal)
-
-        _leave_chat = function(){
-            var sio = isFakeData ? mgame.fake.mockSio : mgame.data.getSio();
-            chatee = null;
-            stateMap.is_connected = false;
-            if (sio) { sio.emit('leavechat');}	//TODO
-        };
-
-        get_chatee = function(){ return chatee; };
-
-        join_chat = function(){
-            var sio;
-            if (stateMap.is_connected) {return false;}
-
-            if (stateMap.user.get_is_anon()) {
-                console.warn('User must be defined befor joining chat');
-                return false;
-            }
-
-            sio = isFakeData ? zugzug.fake.mockSio : zugzug.data.getSio();
-            sio.on('listchange', _publish_listchange);
-            console.log('joined'+ _publish_listchange);
-            sio.on('updatechat', _publish_updatechat);
-            stateMap.is_connected = true;
-            return true;
-        };
-
-        send_msg = function(msg_text){
-            var msg_map,
-                sio = isFakeData ? mgame.fake.mockSio : mgame.data.getSio();	//TODO
-
-            if (! sio) { return false; }
-            if (!(stateMap.user && chatee) ) {return false;}
-
-            msg_map = {
-                dest_id		: chatee.id,
-                dest_name	: chatee.name,
-                sender_id	: stateMap.user.id,
-                msg_text	: msg_text
-            };
-
-            //we published updatechat so we can show the out going msg.
-            _publish_updatechat( [msg_map]);
-            sio.emit('updatechat',msg_map);
-            return true;
-        };
-
-        set_chatee =  function(person_id){
-            var new_chatee;
-            new_chatee = stateMap.people_cid_map[person_id];
-            if (new_chatee) {
-                if (chatee && chatee.id === new_chatee.id) {
-                    return false;
-                }
-            }
-            else{
-                new_chatee = null;
-            }
-            $.gevent.publish(
-                'mgame-setchatee',
-                {old_chatee : chatee, new_chatee : new_chatee}
-            );
-            chatee = new_chatee;
-            return true;
-        };
-
-        update_avatar = function(avatar_update_map){
-            var sio = isFakeData ? mgame.fake.mockSio : mgame.data.getSio();
-            if (sio) {
-                sio.emit('updateavatar', avatar_update_map);
-            }
-        };
 
         return {
-            _leave	: _leave_chat,
-            join	: join_chat,
-
-            get_chatee	: get_chatee,
-            send_msg	: send_msg,
-            set_chatee	: set_chatee,
-
-            update_avatar : update_avatar
-        };
-
+            addPath : addPath
+        }
     }());
+
+
 
 
     initModule = function(){
@@ -496,6 +363,9 @@ zugzug.model = (function(){
                 });
             });
         }
+
+        var sio = isFakeData ? zugzug.fake.mockSio : mgame.data.getSio();
+        sio.on('addpathCallback', path.addPath); //TODO
 
         stateMap.city = stateMap.anon_city;
     };

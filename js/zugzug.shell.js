@@ -25,7 +25,10 @@ zugzug.shell =(function(){
             main_html: main_html,
             anchor_schema_map : {
                 info : { open : true,  close : true},
-                post : { open : true,  close : true}
+                post : { open : true,  close : true},
+//                search : true,
+                start : true,
+                end  : true
             }
        },
        stateMap = {
@@ -34,7 +37,8 @@ zugzug.shell =(function(){
        jqueryMap = {     };
 
     var setJqueryMap, initModule,
-        copyAnchorMap, changeAnchorPart, onHashChange, setInfoAnchor, setPostAnchor;
+        copyAnchorMap, changeAnchorPart, onHashChange,
+        setInfoAnchor, setPostAnchor, setSearchStartAnchor, setSearchEndAnchor;
 
 //    =====================UTILITY======
     copyAnchorMap = function(){
@@ -99,7 +103,11 @@ zugzug.shell =(function(){
 
             _s_info_previous, _s_info_proposed, s_info_proposed,
 
-            _s_post_previous, _s_post_proposed, s_post_proposed;
+            _s_post_previous, _s_post_proposed, s_post_proposed,
+
+            _s_start_previous, _s_start_proposed, s_start_proposed,
+
+            _s_end_previous, _s_end_proposed, s_end_proposed;
 
         try{
             anchor_map_now = $.uriAnchor.makeAnchorMap();
@@ -116,6 +124,10 @@ zugzug.shell =(function(){
         _s_info_proposed = anchor_map_now._s_info;
         _s_post_previous = anchor_map_previous._s_post;
         _s_post_proposed = anchor_map_now._s_post;
+        _s_start_previous = anchor_map_previous._s_start;
+        _s_start_proposed = anchor_map_now._s_start;
+        _s_end_previous = anchor_map_previous._s_end;
+        _s_end_proposed = anchor_map_now._s_end;
 
         //if anchor changed, magic happened here!
         if(! anchor_map_previous || _s_info_previous !== _s_info_proposed){
@@ -150,6 +162,30 @@ zugzug.shell =(function(){
             }
         }
 
+        if(! anchor_map_previous || _s_start_previous !== _s_start_proposed) {
+            s_start_proposed = anchor_map_now.start;
+            if (s_start_proposed) {
+                is_animated = zugzug.model.cities.search(s_start_proposed, null);
+            }
+            else {
+                is_animated = true;
+                delete anchor_map_now.start;
+                $.uriAnchor.setAnchor(anchor_map_now, null, true);
+            }
+        }
+
+        if(! anchor_map_previous || _s_end_previous !== _s_end_proposed) {
+            s_end_proposed = anchor_map_now.end;
+            if (s_end_proposed) {
+                is_animated = zugzug.model.cities.search(null, s_end_proposed);
+            }
+            else {
+                is_animated = true;
+                delete anchor_map_now.end;
+                $.uriAnchor.setAnchor(anchor_map_now, null, true);
+            }
+        }
+
         if(!is_animated){
             if(anchor_map_previous){
                 $.uriAnchor.setAnchor(anchor_map_previous, null, true);
@@ -177,6 +213,17 @@ zugzug.shell =(function(){
         return changeAnchorPart({post: position_type});
     };
 
+    setSearchStartAnchor = function(start_city){
+        if(start_city){
+            return changeAnchorPart({start :  start_city})
+        }
+    };
+
+    setSearchEndAnchor = function(end_city){
+        if(end_city){
+            return changeAnchorPart({end :  end_city})
+        }
+    };
 //    ===================================
 
     initModule = function($container){
@@ -189,7 +236,9 @@ zugzug.shell =(function(){
         zugzug.acct.initModule(jqueryMap.$acct);
 
         zugzug.content.configModule({
-            set_post_anchor : setPostAnchor
+            set_post_anchor : setPostAnchor,
+            set_search_start_anchor : setSearchStartAnchor,
+            set_search_end_anchor : setSearchEndAnchor
         });
 
         zugzug.content.initModule(jqueryMap.$content);

@@ -15,7 +15,22 @@ zugzug.content = (function(){
     content_html += "                       <div class=\"content-search-end b col-md-6\">end<\/div>";
     content_html += "                     <\/div>";
     content_html += "                    <div class=\"content-post b col-md-4\">post<\/div>";
-    content_html += "                    <div class=\"content-detail b col-md-4\">map<\/div>";
+    content_html += "                    <div class=\"content-detail b col-md-4\">map";
+    content_html += "  <form>";
+    content_html += "	  <p>";
+    content_html += "		<label for=\"username\">Start:<\/label>";
+    content_html += "		<input type=\"text\" name=\"username\" id=\"username\">";
+    content_html += "	  <\/p>";
+    content_html += "	  <p>";
+    content_html += "		<label for=\"password\">End: <\/label>";
+    content_html += "		<input type=\"text\" name=\"password\" id=\"password\">";
+    content_html += "	  <\/p>";
+    content_html += "	  <p>";
+    content_html += "		<input type=\"submit\" name=\"button\" id=\"button\" value=\"Submit\" >";
+    content_html += "	  <\/p>";
+    content_html += "  <\/form>";
+    content_html += "<\/div>";
+
     content_html += "                <\/div>";
     content_html += "                <div class=\"row\">";
     content_html += "                    <div class=\"content-list b col-md-8\">list<\/div>";
@@ -25,12 +40,17 @@ zugzug.content = (function(){
             support_option:{
                 login_open_time : true,
                 login_close_time : true,
-                set_post_anchor : true
+                set_post_anchor : true,
+                set_search_start_anchor : true,
+                set_search_end_anchor : true
             },
 
             login_open_time : 200,
             login_close_time : 100,
-            set_post_anchor: null
+            set_post_anchor: null,
+            set_search_anchor : null,
+            set_search_start_anchor: null,
+            set_search_end_anchor : null
         },
 
         stateMap = {
@@ -45,7 +65,7 @@ zugzug.content = (function(){
         };
 
     var setJqueryMap, configModule, initModule, setPostPosition, onClickToggle,
-        onTapStart, onTapEnd, onSearchComplete;
+        onTapStart, onTapEnd, onSearchComplete, onListchangeComplete;
 
 //    ======================DOM method===============
     setJqueryMap = function($container){
@@ -125,17 +145,18 @@ zugzug.content = (function(){
     onTapStart = function(){
         var city_name;
             city_name = prompt('please enter the start city');
-            zugzug.model.cities.search(city_name, null);  //TODO
-            jqueryMap.$list.text('waiting');
+//            zugzug.model.cities.search(city_name, null);  //TODO
+        configMap.set_search_start_anchor(city_name);
+//            jqueryMap.$list.text('waiting');
     };
 
     onTapEnd = function(){
-        var city_name,
 //            city = zugzug.model.cities.get_start();
 //        if(city.get_is_anon()){
-            city_name = prompt('please enter the end city');
-            zugzug.model.cities.search(null, city_name);  //TODO
-            jqueryMap.$list.text('waiting');
+        var city_name = prompt('please enter the end city');
+        configMap.set_search_end_anchor(city_name);
+//            zugzug.model.cities.search(null, city_name);  //TODO
+//            jqueryMap.$list.text('waiting');
 //        }
 //        else{
 //            zugzug.model.cities.logout();
@@ -158,6 +179,14 @@ zugzug.content = (function(){
         jqueryMap.$list.append(path_fragment);
     };
 
+    onListchangeComplete = function(event, add_path){
+        console.dir(add_path.path);
+        var add_para = $('<p>')
+            .addClass()
+            .text(path.start + 'to' + path.end + 'on' + path.date);
+        jqueryMap.$list.prepend(add_para);
+    };
+
     configModule = function(input_map){
         zugzug.util.setConfigMap({
             input_option   : input_map,
@@ -178,6 +207,7 @@ zugzug.content = (function(){
         jqueryMap.$end.text('enter the end').click(onTapEnd);
 
         $.gevent.subscribe(jqueryMap.$list, 'zugzug-search', onSearchComplete);
+        $.gevent.subscribe(jqueryMap.$list, 'zugzug-listchange', onListchangeComplete);
         return true;
     };
 
