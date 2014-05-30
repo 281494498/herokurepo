@@ -5,6 +5,7 @@ var LocalStrategy   = require('passport-local').Strategy;
 
 // load up the user model
 var User       		= require('../app/models/user');
+//var path            = require('../app/models/path');
 
 // expose this function to our app using module.exports, need variable passport
 module.exports = function(passport) {
@@ -65,7 +66,7 @@ module.exports = function(passport) {
                         newUser.local.email    = email;
                         newUser.local.password = newUser.generateHash(password);
 
-                        // save the user TODO
+                        // save the user , validator works here!
                         newUser.save(function(err) {
                             if (err)
                                 throw err;

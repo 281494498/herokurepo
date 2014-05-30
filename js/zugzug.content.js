@@ -170,7 +170,7 @@ zugzug.content = (function(){
 //            if(index >0){
                 path_fragment = $('<p/>')
                     .addClass()
-                    .text(path.start)
+                    .text(path.start + ' to ' +path.end + ' on ' + path.date)
                     .appendTo(jqueryMap.$list);
             console.log(path_fragment.text());
 //            }

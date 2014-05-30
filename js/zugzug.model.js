@@ -38,7 +38,7 @@ zugzug.model = (function(){
 //            is_connected	: false
         },
 
-        isFakeData = true,		// TODO changed to false now!!!!!!!!!!
+        isFakeData = false,		// TODO changed to false now!!!!!!!!!!
         cityProto, makeCity, makePath, cities, initModule,
         makeCid, clearCityDb, completeLogin, removeCity, completePath,
         clearPathDB,
@@ -224,10 +224,11 @@ zugzug.model = (function(){
             return true ; //TODO
         };
 
-        completeSearchPath = function(){
+        completeSearchPath = function(path_list){
 //            var path_map = path_list[0];    //TODO here only set the first guy !!!!!!
 
             var path_list = zugzug.fake.getPathList(); // which is a array
+
 
             path_list.forEach(function(path){
                 makePath({
@@ -239,6 +240,8 @@ zugzug.model = (function(){
                     cid     : path._id
                 });
             });
+
+            console.log(path_list[0]);
 
             stateMap.path_db().each(function(path){
                 console.dir(path);
@@ -364,7 +367,7 @@ zugzug.model = (function(){
             });
         }
 
-        var sio = isFakeData ? zugzug.fake.mockSio : mgame.data.getSio();
+        var sio = isFakeData ? zugzug.fake.mockSio : zugzug.data.getSio();
         sio.on('addpathCallback', path.addPath); //TODO
 
         stateMap.city = stateMap.anon_city;

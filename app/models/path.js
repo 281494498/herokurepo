@@ -4,12 +4,17 @@
 
 var mongoose = require('mongoose');
 
-var Path = mongoose.Schema({
-    start: { type : String, min: 4, max : 20, required :true },
-    end  : { type : String, min: 4, max : 20, required :true  },
+var pathSchema = mongoose.Schema({
+    start: { type : String, required :true },   //make the length validate in client side
+    end  : { type : String, required :true  },
     member : {type : Number,  min:1, max :4},
-    date : {type :Date},
-    id : String
+    date : {type :Date, default : Date.now },
+    id : String,
+    user : String
 });
+//,{safe : 'safe'} safe option here
+pathSchema.statics.findByName = function(name, callback){
+    this.find({ name: new RegExp(name, 'i') }, callback);
+};
 
-module.exports = mongoose.model('path', Path);
+module.exports = mongoose.model('Path', pathSchema);

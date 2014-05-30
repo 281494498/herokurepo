@@ -25,6 +25,20 @@ zugzug.fake = (function(){
                 date : '01/06',
                 member : 4,
                 _id : 2
+            },
+            {
+                start : 'stuttgart',
+                end : 'munich',
+                date : '01/06',
+                member : 4,
+                _id : 2
+            },
+            {
+                start : 'stuttgart',
+                end : 'hamburg',
+                date : '01/06',
+                member : 4,
+                _id : 2
             }
         ]
     };

@@ -8,6 +8,7 @@
 var zugzug = (function(){
     'use strict';
     var initModule = function($zugzug){
+        zugzug.data.initModule();
         zugzug.model.initModule();
         zugzug.shell.initModule($zugzug);
     };
