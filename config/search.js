@@ -5,6 +5,7 @@
 var search,
     sio = require('socket.io');
     crud = require('./crud');
+var Path            = require('../app/models/path');
 
 search = {
     connect : function(server){
@@ -17,7 +18,10 @@ search = {
             .on('connection', function(socket){
                 socket.on('searchpath', function(search_map){
                     console.dir(search_map);
-                    socket.emit('searchpathCallback','stuttgart' );
+                    Path.find({ start: search_map.start, end:search_map.end }, function(err, result){
+                        console.dir(result);
+                        socket.emit('searchpathCallback',result ,'here');
+                    });
                 });
             });
 

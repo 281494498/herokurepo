@@ -164,6 +164,7 @@ zugzug.content = (function(){
     };
 
     onSearchComplete = function(event, result_map){
+        console.log('receive db is:');
         console.dir(result_map);//exactly the same one
         var path_fragment = undefined;
         result_map.forEach(function(path, index, array){

@@ -211,9 +211,9 @@ zugzug.model = (function(){
             if(stateMap.start && stateMap.end && (stateMap.start !== _start || stateMap.end!== _end)){
                 sio.on('searchpathCallback', completeSearchPath);
 
-                sio.emit('searchpath', {        //TODO should be set in server
-                    startCity   : stateMap.start,
-                    endCity     : stateMap.end
+                sio.emit('searchpath', {
+                    start   : stateMap.start,
+                    end     : stateMap.end
                 });
 
                 stateMap.search_map = { //todo maybe removed
@@ -224,10 +224,12 @@ zugzug.model = (function(){
             return true ; //TODO
         };
 
-        completeSearchPath = function(path_list){
+        completeSearchPath = function(argument){
 //            var path_map = path_list[0];    //TODO here only set the first guy !!!!!!
 
-            var path_list = zugzug.fake.getPathList(); // which is a array
+//            var path_list = zugzug.fake.getPathList(); // which is a array
+            console.log(argument);
+            var path_list = argument[0];
 
 
             path_list.forEach(function(path){
@@ -241,12 +243,13 @@ zugzug.model = (function(){
                 });
             });
 
-            console.log(path_list[0]);
-
+            console.log('ready to send');
+            console.log(path_list);
+            console.log('date in path_db is:');
             stateMap.path_db().each(function(path){
                 console.dir(path);
             });
-            //here must be array, and first one is reserved by event, start from 1.
+            //here must be array, start from first element in the array.
             $.gevent.publish('zugzug-search', [path_list]);
         };
 //    completeLogin = function(user_list){
@@ -368,8 +371,9 @@ zugzug.model = (function(){
         }
 
         var sio = isFakeData ? zugzug.fake.mockSio : zugzug.data.getSio();
-        sio.on('addpathCallback', path.addPath); //TODO
+        sio.on('addpathCallback', path.addPath); //TODO add the first some lists here
 
+        sio.emit('addpath');
         stateMap.city = stateMap.anon_city;
     };
 

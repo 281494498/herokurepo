@@ -25,7 +25,7 @@ var configDB = require('./config/database.js');
 // ======user auth part
 require('./config/passport')(passport); // pass passport for configuration
 
-// ======routes
+// ======routes TODO
 //var router = require('./app/routes.js'); // load our routes and pass in our app and fully configured passport
 
 //router.configRouter(app, passport, server, flash);
@@ -87,7 +87,9 @@ if ('development' === app.get('env')) {
 }
 
 var server = http.createServer(app);
-require('./app/routes')(app, passport, server);
+var router = require('./app/routes');
+router.configRouter(app, passport, server);
+//require('./app/routes')(app, passport, server);
 //==========================================================================
 //==============================static file system==========================
 //==========================================================================
