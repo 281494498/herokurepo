@@ -311,34 +311,18 @@ zugzug.model = (function(){
             }
         };
 
-        _update_list = function(arg_list){
-            var  person_map, make_path_map, person;
+        _update_list = function(path){
+            var  person_map, person;
 
             clearPathDB();
-
-            arg_list.forEach(function(path, index, list) {
-                if (!path.start || !path.end) {
-                    return;
-                }
-
-                make_path_map = {
-                    id: path._id,
-                    start: path.start,
-                    end: path.end,
-                    date: path.date,
-                    member: path.member,
-                    cid: path._id
-                };
-            });
+            if (!path.start || !path.end) {
+                return false;
+            }
+            makePath(path); //add to local taffy db
+            $.gevent.publish('zugzug-listchange', [path]);
+            return true;
 
         };
-
-        _publish_listchange = function (arg_list){
-            _update_list(arg_list);
-            $.gevent.publish('zugzug-listchange', [arg_list]);
-        };
-
-
 
         return {
             addPath : addPath

@@ -18,15 +18,27 @@ zugzug.content = (function(){
     content_html += "                    <div class=\"content-detail b col-md-4\">map";
     content_html += "  <form>";
     content_html += "	  <p>";
-    content_html += "		<label for=\"username\">Start:<\/label>";
-    content_html += "		<input type=\"text\" name=\"username\" id=\"username\">";
+    content_html += "		<label for=\"post_start\">Start:<\/label>";
+    content_html += "		<input type=\"text\" name=\"post_start\" id=\"post_start\">";
     content_html += "	  <\/p>";
     content_html += "	  <p>";
-    content_html += "		<label for=\"password\">End: <\/label>";
-    content_html += "		<input type=\"text\" name=\"password\" id=\"password\">";
+    content_html += "		<label for=\"post_end\">End: <\/label>";
+    content_html += "		<input type=\"text\" name=\"post_end\" id=\"post_end\">";
     content_html += "	  <\/p>";
     content_html += "	  <p>";
-    content_html += "		<input type=\"submit\" name=\"button\" id=\"button\" value=\"Submit\" >";
+    content_html += "		<label for=\"post_date\">Date: <\/label>";
+    content_html += "		<input type=\"text\" name=\"post_date\" id=\"post_date\">";
+    content_html += "	  <\/p>";
+    content_html += "	  <p>";
+    content_html += "		<label for=\"post_member\">Member: <\/label>";
+    content_html += "		<input type=\"text\" name=\"post_member\" id=\"post_member\">";
+    content_html += "	  <\/p>";
+    content_html += "	  <p>";
+    content_html += "		<label for=\"post_addition\">Addtion: <\/label>";
+    content_html += "		<input type=\"text\" name=\"post_addition\" id=\"post_addition\">";
+    content_html += "	  <\/p>";
+    content_html += "	  <p>";
+    content_html += "		<input type=\"submit\" name=\"button\" id=\"post_button\" value=\"Submit\" >";
     content_html += "	  <\/p>";
     content_html += "  <\/form>";
     content_html += "<\/div>";
@@ -65,7 +77,7 @@ zugzug.content = (function(){
         };
 
     var setJqueryMap, configModule, initModule, setPostPosition, onClickToggle,
-        onTapStart, onTapEnd, onSearchComplete, onListchangeComplete;
+        onTapStart, onTapEnd, onSearchComplete, onListchangeComplete, onClickPost;
 
 //    ======================DOM method===============
     setJqueryMap = function($container){
@@ -76,7 +88,14 @@ zugzug.content = (function(){
             $post       : $container.find('.content-post'),
             $detail     : $container.find('.content-detail'),
             $start      : $container.find('.content-search-start'),
-            $end        : $container.find('.content-search-end')
+            $end        : $container.find('.content-search-end'),
+
+            $post_start : $container.find('#post_start'),
+            $post_end   : $container.find('#post_end'),
+            $post_member: $container.find('#post_member'),
+            $post_date  : $container.find('#post_date'),
+            $post_addition : $container.find('#post_addition'),
+            $post_button: $container.find('#post_button')
         };
     };
 
@@ -163,6 +182,18 @@ zugzug.content = (function(){
 //        }
     };
 
+    onClickPost = function(event){   //TODO callbacks
+        event.preventDefault();
+        var sio = zugzug.data.getSio();
+        sio.emit('postpath', {
+            start   : jqueryMap.$post_start.val(),
+            end     : jqueryMap.$post_end.val(),
+            date    : jqueryMap.$post_date.val(),
+            member  : jqueryMap.$post_member.val(),
+            addition: jqueryMap.$post_addition.val()
+        })
+    };
+
     onSearchComplete = function(event, result_map){
         console.log('receive db is:');
         console.dir(result_map);//exactly the same one
@@ -206,6 +237,7 @@ zugzug.content = (function(){
 
         jqueryMap.$start.text('enter the start').click(onTapStart);
         jqueryMap.$end.text('enter the end').click(onTapEnd);
+        jqueryMap.$post_button.click(onClickPost);
 
         $.gevent.subscribe(jqueryMap.$list, 'zugzug-search', onSearchComplete);
         $.gevent.subscribe(jqueryMap.$list, 'zugzug-listchange', onListchangeComplete);

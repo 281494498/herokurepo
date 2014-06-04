@@ -23,6 +23,15 @@ search = {
                         socket.emit('searchpathCallback',result ,'here');
                     });
                 });
+
+                socket.on('addpath', function(path_map){
+                    console.log('add path socket received' + path_map );
+                    crud.create(Path,
+                        path_map,
+                        function(result){
+                            io.emit('addpathCallback', result);
+                        });
+                });
             });
 
         return io;
